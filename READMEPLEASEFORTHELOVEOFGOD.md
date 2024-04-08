@@ -22,7 +22,7 @@ function result(num) {
 function numberResult (num, func) {
   return func(num);
 }
-console.log(result(21, result)
+console.log(numberResult(21, result)
 ```
 !REMEMBER THE BOOMSTICK THEORY!<br>
 What is happening here is that a function is being declared, and then another function is declared and structured to call another function with the `func` slot (dont call the function you need in the function, do that in the console.log line).<br>
